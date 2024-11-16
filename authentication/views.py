@@ -69,7 +69,7 @@ class RegistrationView(View):
 
                 user = User.objects.create_user(username=username, email=email)
                 user.set_password(password)
-                user.is_active = False
+                user.is_active = True
                 user.save()
                 current_site = get_current_site(request)
                 email_body = {
@@ -110,7 +110,7 @@ class VerificationView(View):
 
             if user.is_active:
                 return redirect('login')
-            user.is_active = True
+            user.is_active = False
             user.save()
 
             messages.success(request, 'Account activated successfully')
