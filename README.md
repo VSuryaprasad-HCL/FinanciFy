@@ -1,5 +1,47 @@
 # Getting Started with Create React App
 
+The Project Structure
+```
+FinanciFy/
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+└── src
+    ├── App.css
+    ├── App.js
+    ├── assets
+    │   ├── search.svg
+    │   ├── transactions.svg
+    │   └── user.svg
+    ├── components
+    │   ├── Cards.js
+    │   ├── Dashboard.js
+    │   ├── Header
+    │   │   ├── index.js
+    │   │   └── styles.css
+    │   ├── Loader
+    │   │   ├── index.js
+    │   │   └── styles.css
+    │   ├── Modals
+    │   │   ├── AddExpense.js
+    │   │   └── AddIncome.js
+    │   ├── NoTransactions.js
+    │   ├── Signup.js
+    │   └── TransactionSearch.js
+    ├── firebase.js
+    ├── index.css
+    ├── index.js
+    └── styles.css
+
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
