@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install` (If your version is <= 18)
+### `npm install --legacy-peer-deps` (If your version is > 18)
+
+This will install required packeges.
+
 ### `npm start`
 
 Runs the app in the development mode.\
